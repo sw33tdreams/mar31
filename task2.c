@@ -10,7 +10,7 @@ int main(){
 	for(int i = 0; i < num; ++i){
 		scanf("%d",arr + i);}
 	for(int i = 0; i < num; ++i){
-		if(*(arr + i) % 2){
+		if(arr[i] % 2){
 		       ++l;}
 	}
        printf("num of kent tver is %d\n",l);
