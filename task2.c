@@ -5,6 +5,10 @@ int main(){
 	printf("enter your number of numbers:  ");
 	int num = 0;
 	scanf("%d",&num);
+	if(num >= 100){
+		printf("please enter number above 100\n");
+return 0;
+}
 	int l = 0;
 	printf("enter %d int numbers:  ",num);
 	for(int i = 0; i < num; ++i){

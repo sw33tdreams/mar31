@@ -5,7 +5,10 @@ int main(){
 	printf("enter number of chars:  ");
 	int num = 0;
 	scanf("%d",&num);
-
+if(num >= 100){
+	printf("please enter number above 100"\n);
+	return 0;
+	}
 	for(int i = 0; i < num; ++i){
 		scanf("%c",arr + i);
 	}
